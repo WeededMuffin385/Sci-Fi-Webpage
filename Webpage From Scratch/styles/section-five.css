@@ -1,26 +1,26 @@
 section.section-five {
     margin-top: 2%;
-    margin-bottom: 2%;
 	width: 96%;
+    height: 100%;
     margin-left: 2%;
 }
 
 section.section-five div.table {
-    display: table;
+    display: flex;
     width: 100%;
-
 
     border: 2px solid #88888888;
 }
 
 section.section-five div.table .item {
     width: 50%;
-    float: left;
+    float: right;
 }
 
-section.section-five div.table .item img {
-    width: 100%;
+section.section-five div.table img.item {
+    width: 50%;
     border-right: 2px solid #88888888;
+    float: left;
 }
 
 section.section-five div.table .item p.title {
@@ -31,4 +31,13 @@ section.section-five div.table .item p.title {
     text-transform: uppercase;
 
     border-bottom: 2px solid #88888888;
+    padding-bottom: 4%;
+}
+
+section.section-five div.table .item p.text-level-one {
+
+}
+
+section.section-five div.table .item p.text-level-two {
+
 }
