@@ -1,0 +1,15 @@
+.holder {
+    left: 25%;
+    position: absolute;
+    top: 0;
+    z-index: -100;
+
+    /*centrify VVVV*/
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    display: flex;
+	justify-content: center;
+}

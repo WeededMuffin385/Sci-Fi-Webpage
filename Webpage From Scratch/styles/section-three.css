@@ -1,0 +1,76 @@
+section.section-three {
+    margin-top: 2%;
+    margin-bottom: 2%;
+	width: 100%;
+
+    background-image: url("../images/graient_5.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section.section-three div.table {
+    display: table;
+    justify-content: center;
+    width: 100%;
+    margin: auto; /* Центрирует изображение внутри ячейки */
+}
+
+section.section-three div.table .column {
+    float: left;
+    width: 30%;
+    padding: 1.5%;
+    display: block;
+}
+
+section.section-three div.table .column img {
+    width: 100%;
+    border: 2px solid #888888; /*stroke*/
+}
+
+section.section-three p.title {
+    margin: 5%;
+    font-family: Syncopate, sans-serif;
+    font-size: 208.33331%; /* 33.33px / 16px = 208.31252% */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.section-three div.table p.title {
+    font-size: 160%;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 20%;
+}
+
+section.section-three div.table p.text {
+    margin: 15px auto 0;
+    position: relative;
+    right: 1.898734%;
+    width: 96.20253%; /* 304px / 316px = 96.20253% */
+    font-size: 113.71262%; /* 18.19px / 16px = 113.6875% */
+    font-weight: 800;
+    line-height: 128.81166%; /* 23.43px / 18.19px = 128.80704% */
+    text-align: justify;
+}
+
+section.section-three div.button {
+    display: block;
+    position: relative;
+    z-index: 287;
+    border-radius: 71.18px/23.14px;
+    background: #f6d0b4;
+
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+
+    font-family: Syncopate, sans-serif;
+    font-size: 150%; /* 11.27px / 16px = 70.4375% */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+	font-family: 'Darker Grotesque', sans-serif;
+	color: black;
+
+    background: url(../images/background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	min-height: 8000px;
+    z-index: -100;
+}

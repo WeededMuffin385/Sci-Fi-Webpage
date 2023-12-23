@@ -1,0 +1,37 @@
+section.section-two {
+    margin-top: 2%;
+    margin-bottom: 2%;
+	width: 100%;
+}
+
+section.section-two div.table {
+    margin-top: 2%;
+    margin-bottom: 2%;
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+section.section-two div.table .item{
+    float: left;
+    text-align: center;
+	display: table-cell;	
+	width: 33%;
+	vertical-align: top;
+	padding: 0;
+	border-right: 30px;
+	border-left: 30px;
+}
+
+section.section-two div.table .item:first-child {
+	border-left: none;
+}
+section.section-two div.table .item:last-child {
+	border-right: none;
+}
+
+section.section-two div.table p {
+    font-family: Syncopate, sans-serif;
+    font-size: 117.57744%; /* 18.81px / 16px = 117.5625% */
+    font-weight: bold;
+}

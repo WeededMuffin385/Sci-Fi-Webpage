@@ -3,15 +3,26 @@
     <head>
         <title>Sci-Fi Webpage</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="menu.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/holder.css">
+        <link rel="stylesheet" href="styles/images.css">
 
+        <link rel="stylesheet" href="styles/section-one.css">
+        <link rel="stylesheet" href="styles/section-two.css">
+        <link rel="stylesheet" href="styles/section-three.css">
+        <link rel="stylesheet" href="styles/section-four.css">
+        <link rel="stylesheet" href="styles/section-five.css">
+        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syncopate:regular,700&amp;subset=latin">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300,regular,500,600,700,800,900&amp;subset=latin,latin-ext,vietnamese">
+       
+        <script src="scripts/visibility.js"></script> 
     </head>
-    <body class="background">
-        <div class="topnav">
+    <body>
+        <div class="header">
             <a href="#home"><img src="images/your_logo.png"></a>
+
             <div class="divider-vertical"></div>
             <a href="#sign-in">sign in</a>
             <a href="#blog">blog</a>
@@ -20,8 +31,94 @@
             <div class="divider-vertical"></div>
             <a href="#home">home</a>
             <div class="divider-vertical"></div>
-            <a onclick="alert('Wrong answer')"><img src="images/menu.png"></a>
+
+            <a onclick="change_visibility('advertisment')"><img src="images/menu.png"></a>
         </div>
         <div class="divider-horizontal"></div>
+        <div class="holder"><img src="images/graient_1.png"></div>
+
+        <section class="section-one">
+            <div class="table">
+                <div>
+                    <p class="title background-oval">
+                        MAKE EVERYTHING<br>FEEL EASIER
+                    </p>
+
+                    <p class="text-level-one">
+                        KEEP YOUR HOUSE UNDER YOUR CONTROL.
+                    </p>
+
+                    <p class="text-level-two">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    </p>
+                </div>
+
+                <div>
+                    <img src="images/mask_13.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-two">
+            <div class = "divider-horizontal"></div>
+                <div class="table">
+                    <p class = "item">SMART TECHNOLOGY</p>
+                    <p class = "item">ACCESORIES</p>
+                    <p class = "item">SOFTWARE</p>
+                </div>
+            <div class = "divider-horizontal"></div>
+        </section>
+
+        <section class="section-three" id="products">
+            <p class = "title">NEW PORMOS</p>
+
+            <div class="table">
+                <div class="column">
+                    <img class="item" src="images/mask_12.jpg">
+                    <p class="title">Lorem ipsum dolor amet, consectetur.</p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="button">READ MOAR</div>
+                </div>
+                <div class="column">
+                    <img class="item" src="images/mask_11.jpg">
+                    <p class="title">Lorem ipsum dolor amet, consectetur.</p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="button">READ MOAR</div>
+                </div>
+                <div class="column">
+                    <img class="item" src="images/mask_10.jpg">
+                    <p class="title">Lorem ipsum dolor amet, consectetur.</p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="button">READ MOAR</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-four">
+            <div class="background-space">
+                <p class="title">FUTURE IS NEARLY HERE</p>
+                <div class="rectangle">
+                    <iframe id="advertisment" width="100%" height="100%" src="https://www.youtube.com/embed/TYQU5tusgoc?si=-WYrsovHgmY7sbF2&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-five">
+            <div class="table">
+                <div class="item">
+                    <img src="images/mask_8.jpg">
+                </div>
+                <div class="item">
+                    <p class="title">OUR STORY</p>
+                </div>
+            </div>  
+        </section>
+
+        <section class="section-six">
+
+        </section>
+
+        <footer>
+        </footer>
     </body>
 </html>

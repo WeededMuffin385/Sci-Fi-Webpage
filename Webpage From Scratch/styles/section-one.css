@@ -1,0 +1,74 @@
+section.section-one {
+    margin-top: 2%;
+    margin-bottom: 2%;
+	width: 100%;
+
+    background-image: url("../images/graient_2_2.png");
+    background-repeat: no-repeat;
+}
+
+section.section-one div.table {
+	display: flex;
+	justify-content: center;
+    flex: 1;
+    overflow: hidden;
+    padding-top: 2%;
+}
+
+section.section-one div.table img {
+    float: right;
+    width: 100%;
+    border-top: 2px solid #888888; /*stroke*/
+    border-left: 2px solid #888888; /*stroke*/
+    border-bottom: 2px solid #888888; /*stroke*/
+}
+
+section.section-one div.table div {
+    width: 50%;
+}
+
+section.section-one div.table .background-oval {
+    background-image: url("../images/oval_2_2.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+}
+
+section.section-one p.text-level-one {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 190%; /* 30.35px / 16px = 189.6875% */
+    font-weight: 800;
+    line-height: 113.80244%; /* 34.54px / 30.35px = 113.8056% */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.section-one p.text-level-two {
+    width: 60%; /* 348px / 1240px = 28.064516% */
+    font-size: 130%; /* 21.23px / 16px = 132.6875% */
+    font-weight: 800;
+    line-height: 126.37697%; /* 26.83px / 21.23px = 126.37777% */
+    text-align: justify;
+
+    margin-left: 20%;
+}
+
+section.section-one p.title {
+    width: 85%;
+
+    margin-left: 7.5%;
+
+    font-size: 250%;
+
+    padding-right: 4%;
+    padding-top: 10%;
+
+    text-align: center;
+    font-weight: bold;
+    font-family: Syncopate, sans-serif;
+
+    padding-bottom: 10%;
+}
+

@@ -1,0 +1,37 @@
+.header {
+    /* background-color: #333; */
+	display: flex;
+	justify-content: center;
+
+    overflow: hidden;
+	text-transform: uppercase
+}
+
+.header a {
+    font-weight: 900;
+    flex: 1;
+    text-align: center;
+    padding: 2% 2%;
+    font-size: 150%;
+}
+  
+  /* Change the color of links on hover */
+.header a:hover {
+  color: greenyellow;
+}
+  
+  /* Add a color to the active/current link */
+.header a:active {
+  background-color: rgba(172, 255, 47, 0.300);
+  color: white;
+}
+
+.divider-horizontal {
+    flex-grow: 0;
+    border-bottom: 2px solid black;
+}
+
+.divider-vertical {
+    flex-grow: 0;
+    border-left: 2px solid black;
+}
