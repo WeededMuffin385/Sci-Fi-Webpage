@@ -9,7 +9,9 @@ section.section-three {
 }
 
 section.section-three div.table {
-    display: table;
+    display: flex;
+
+    align-items: center;
     justify-content: center;
     width: 100%;
     margin: auto; /* Центрирует изображение внутри ячейки */
@@ -73,4 +75,17 @@ section.section-three div.button {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+}
+
+@media (max-width: 350px) {
+    section.section-three div.table {
+        flex-direction: column;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: auto; /* Центрирует изображение внутри ячейки */
+    }
 }
