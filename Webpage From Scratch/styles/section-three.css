@@ -77,7 +77,7 @@ section.section-three div.button {
     text-transform: uppercase;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 800px) {
     section.section-three div.table {
         flex-direction: column;
 
