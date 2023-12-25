@@ -6,18 +6,24 @@
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/holder.css">
-        <link rel="stylesheet" href="styles/images.css">
+
+
+        <link rel="stylesheet" href="styles/section-modal.css">
+
 
         <link rel="stylesheet" href="styles/section-one.css">
         <link rel="stylesheet" href="styles/section-two.css">
         <link rel="stylesheet" href="styles/section-three.css">
         <link rel="stylesheet" href="styles/section-four.css">
         <link rel="stylesheet" href="styles/section-five.css">
+        <link rel="stylesheet" href="styles/section-six.css">
+        <link rel="stylesheet" href="styles/section-seven.css">
+        <link rel="stylesheet" href="styles/section-eight.css">
         
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syncopate:regular,700&amp;subset=latin">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300,regular,500,600,700,800,900&amp;subset=latin,latin-ext,vietnamese">
        
-        <script src="scripts/visibility.js"></script> 
+        <script src="scripts/scripts.js"></script> 
     </head>
     <body>
         <div class="header">
@@ -95,7 +101,7 @@
         </section>
 
         <section class="section-four">
-            <div class="background-space">
+            <div class="background-space" id="advertisment-section">
                 <p class="title">FUTURE IS NEARLY HERE</p>
                 <div class="rectangle">
                     <iframe id="advertisment" width="100%" height="100%" src="https://www.youtube.com/embed/TYQU5tusgoc?si=-WYrsovHgmY7sbF2&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -110,15 +116,107 @@
                     <p class="title">OUR STORY</p>
                     <p class="text-level-one">LOREM IPSUM DOLOR AMET, CONSECTETUR.</p>
                     <p class="text-level-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="button">READ MOAR</div>
                 </div>
             </div>  
         </section>
 
         <section class="section-six">
-
+            <div class="table">
+                <div class="item">
+                    <p class="title">WHY US</p>
+                    <p class="text-level-one">LOREM IPSUM DOLOR AMET, CONSECTETUR.</p>
+                    <p class="text-level-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="button">READ MOAR</div>
+                </div>
+                <img src="images/mask_7.jpg" class="item">
+            </div>  
         </section>
 
-        <footer>
-        </footer>
+        <section class="section-seven">
+            <p class="title">OUR HAPPY CLIENTS</p>
+            
+            <div class="table">
+                <div class="profile">
+                    <img src="images/mask_5.jpg">
+
+                    <div class="item">
+                        <p class="name">JANE SMITH</p>
+                        <p class="time">17 hours ago</p>
+                    </div>
+                    <p class="text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore.¨</p>
+                </div>
+
+                <div class="profile">
+                    <img src="images/mask_4.jpg">
+
+                    <div class="item">
+                        <p class="name">JANE SMITH</p>
+                        <p class="time">17 hours ago</p>
+                    </div>
+                    <p class="text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore.¨</p>
+                </div>
+
+                <div class="profile">
+                    <img src="images/mask_3.jpg">
+
+                    <div class="item">
+                        <p class="name">JANE SMITH</p>
+                        <p class="time">17 hours ago</p>
+                    </div>
+                    <p class="text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore.¨</p>
+                </div>
+
+                <div class="profile">
+                    <img src="images/mask_2.jpg">
+
+                    <div class="item">
+                        <p class="name">JANE SMITH</p>
+                        <p class="time">17 hours ago</p>
+                    </div>
+                    <p class="text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore.¨</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-eight">
+            <div class="table">
+                <p class="title">SUBSCRIBE TO OUR NEWSLETTER</p>
+
+                <div class="item">
+                    <p class="title-inner">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+
+                    <p class="name">
+                        Name <input type="text" id="name" name="name"><br>
+                    </p>
+
+                    <p class="name">
+                        Mail <input type="text" id="mail" name="mail"><br>
+                    </p>
+
+                    <p class="name-last">
+                        Message <input type="text" id="message" name="message"><br>
+                    </p>
+
+                    <div class="button" onclick="validate_message()">SEND MESSAGE</div>
+                </div>
+
+                <div class="rect"></div>
+            </div>
+        </section>
+
+        <section class="section-modal" id="modal-adv">
+            <div>
+                <p class="title">
+                    GET IN TOUCH
+                </p>
+
+                <p class="name">Mail</p>
+                <input type="text" id="mail" name="mail">
+                <div class="button" onclick="change_visibility('modal-adv')">I'm very interested</div>
+            </div>
+        </section>
     </body>
 </html>

@@ -37,7 +37,7 @@ section.section-three p.title {
 }
 
 section.section-three div.table p.title {
-    font-size: 160%;
+    font-size: 140%;
     font-weight: 800;
     text-transform: uppercase;
     width: 60%;
@@ -50,8 +50,8 @@ section.section-three div.table p.text {
     margin: 15px auto 0;
     position: relative;
     right: 1.898734%;
-    width: 96.20253%; /* 304px / 316px = 96.20253% */
-    font-size: 113.71262%; /* 18.19px / 16px = 113.6875% */
+    width: 100%; /* 304px / 316px = 96.20253% */
+    font-size: 150%; /* 18.19px / 16px = 113.6875% */
     font-weight: 800;
     line-height: 128.81166%; /* 23.43px / 18.19px = 128.80704% */
     text-align: justify;

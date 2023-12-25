@@ -17,6 +17,10 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	min-height: 8000px;
+	/* min-height: 8000px; */
     z-index: -100;
+}
+
+section {
+    overflow: auto;
 }

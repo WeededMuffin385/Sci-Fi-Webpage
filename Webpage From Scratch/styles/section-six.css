@@ -1,17 +1,17 @@
-section.section-five {
+section.section-six {
 	width: 100%;
     height: 100%;
 
     padding-top: 10%;
-    
+
     padding-bottom: 10%;
 
-    background-image: url("../images/graient_4.png");
-    background-position: right;
+    background-image: url("../images/graient_3.png");
+    background-position: left;
     background-repeat: no-repeat;
 }
 
-section.section-five div.table {
+section.section-six div.table {
     display: flex;
     width: 90%;
 
@@ -20,18 +20,18 @@ section.section-five div.table {
     border: 2px solid #88888888;
 }
 
-section.section-five div.table .item {
+section.section-six div.table .item {
     width: 50%;
-    float: right;
-}
-
-section.section-five div.table img.item {
-    width: 50%;
-    border-right: 2px solid #88888888;
     float: left;
 }
 
-section.section-five div.table .item p.title {
+section.section-six div.table img.item {
+    width: 50%;
+    border-left: 2px solid #88888888;
+    float: left;
+}
+
+section.section-six div.table .item p.title {
     font-family: Syncopate, sans-serif;
     font-size: 210%;
     font-weight: bold;
@@ -39,17 +39,17 @@ section.section-five div.table .item p.title {
     text-transform: uppercase;
 
     border-bottom: 2px solid #88888888;
-    padding-bottom: 4%;
+    padding-bottom: 8%;
 }
 
-section.section-five div.table .item p.text-level-one {
+section.section-six div.table .item p.text-level-one {
     font-size: 180%; /* 25.47px / 16px = 159.1875% */
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
 }
 
-section.section-five div.table .item p.text-level-two {
+section.section-six div.table .item p.text-level-two {
     margin-left: 10%;
     width: 80%; /* 304px / 315px = 96.507935% */
     font-size: 150%; /* 18.19px / 16px = 113.6875% */
@@ -59,7 +59,7 @@ section.section-five div.table .item p.text-level-two {
     padding-bottom: 8%;
 }
 
-section.section-five div.button {
+section.section-six div.button {
     display: block;
     position: relative;
     z-index: 287;
